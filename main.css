@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    background: #2c3e50;
+    color: #fff;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+   
+}
+
+.cont{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar .cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .start {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .navlinks {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .navlinks li a:hover {
+    color: #18bc9c; 
+}
+
+.navbar .navlinks a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+
+.boot{
+    background: #18bc9c;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    margin-top: 50px;
+}
+
+.boot h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+    
+.boot p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.portfolio {
+    padding: 50px 0;
+    background: #f9f9f9;
+    justify-content: center;
+}
+
+.portfoliocelement{
+    justify-content: space-around;
+
+}
+.element{
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfoliocelement img{
+    width: 300px;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+    overflow: hidden; 
+    border-radius: 2pc;
+    
+}
+
+.portfolioimgs:hover{
+    color: #a34162;
+    opacity: 0.4;
+    
+}
+
+.portfolio h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about {
+    padding: 50px 0;
+    background:#18bc9c;
+    justify-content: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.about p{
+    font-size: 1.3em;
+    color:#fff;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.aboutp{
+
+    display: flex;
+    justify-items: center;
+}
+
+.freedownload{
+    align-items: center; 
+    padding: 10px 20px; 
+    font-size: 1em; 
+    font-family: Arial, sans-serif;
+    color: white; 
+    background-color: transparent;
+    border: 2px solid white; 
+    border-radius: 5px; 
+}
+
+.contact {
+    padding: 50px 0;
+    background: #f9f9f9;
+    justify-content: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact form  {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact form input, .contact form textarea, .contact form button {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background: #18bc9c;
+    color: #fff;
+    border: none;
+}
+
+.contact form button:hover {
+    background: #16a085;
+}
+
+.footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 80px  
+}
+
+.infflex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.inf h2 {
+    margin-bottom: 10px;
+}
+
+.inf {
+    text-align: center;
+    flex: 1;
+    min-width: 200px; 
+}
+
+.inf i {
+    font-size: 1.5em;
+    margin: 0 10px; 
+}
+
+.inf i:hover {
+    color: #18bc9c; 
+}
+
+
+
+.footer .Copyright{
+    margin-top: 50px;
+    font-size: 0.9em;
+    background-color: #1a252f;
+    padding-top: 1.5rem ;
+    padding-bottom: 1.5rem ;
+}
+    
+
+
+
+
